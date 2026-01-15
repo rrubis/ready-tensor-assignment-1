@@ -207,7 +207,7 @@ class RAGAssistant:
 
     def query(self, query: str) -> str:
         logger.debug(f"query = {query}")
-        return self.invoke(query, 10)
+        return self.invoke(query, 5)
 
 def main():
     """Main function to demonstrate the RAG assistant."""
