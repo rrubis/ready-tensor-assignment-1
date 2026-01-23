@@ -10,9 +10,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.document_loaders import TextLoader
 from langchain_community.document_loaders import PyPDFLoader
 from paths import DATA_DIR, APP_CONFIG_FPATH, PROMPT_CONFIG_FPATH, OUTPUTS_DIR
-#from utils import load_yaml_config
 from prompt_template import template
-#from langchain_core.runnables import RunnablePassthrough
 import logging
 
 logger = logging.getLogger("Project1")
