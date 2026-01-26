@@ -12,6 +12,8 @@ PROMPT_CONFIG_FPATH = os.path.join(CODE_DIR, "config", "prompt_config.yaml")
 
 OUTPUTS_DIR = os.path.join(ROOT_DIR, "outputs")
 
+DATABASE_DIR = os.path.join(ROOT_DIR, "db")
+
 
 DATA_DIR = os.path.join(ROOT_DIR, "data")
 PUBLICATION_FPATH = os.path.join(DATA_DIR, "publication.md")
