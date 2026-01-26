@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 ## LICENSE
 
-This project is provided under the Attribution-NonCommercial-ShareAlike 4.0 International. Please see the [LICENSE](LICENSE) file for more information.
+This project is provided under the Attribution-NonCommercial-ShareAlike 4.0 International. Please see the LICENSE.txt file for more information.
 
 ## Contact Information
 
