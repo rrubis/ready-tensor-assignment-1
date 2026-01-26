@@ -16,13 +16,15 @@ Here are the highlights of this implementation: <br/>
 ```
 rt-aaidc-project1-template/
 ├── src/
-│   ├── app.py           # Main RAG application (implement Steps 2, 6-7)
-│   └── vectordb.py      # Vector database wrapper (implement Steps 3-5)
-├── data/               # Replace with your documents (Step 1)
-│   ├── *.txt          # Your text files here
+│   ├── app.py           # Main RAG application
+│   └── vectordb.py      # Vector database wrapper
+├── data/              # Currently supports .txt and .pdf files 
+│   ├── *.txt          
+│   ├── *.pdf
 ├── requirements.txt    # All dependencies included
 ├── .env.example       # Environment template
 └── README.md          # This guide
+└── LICENSE.txt        
 ```
 
 ### To run locally
