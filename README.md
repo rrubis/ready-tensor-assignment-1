@@ -22,8 +22,9 @@ rt-aaidc-project1-template/
 │   ├── *.txt          
 │   ├── *.pdf
 ├── requirements.txt    # All dependencies included
-├── .env.example       # Environment template
-└── README.md          # This guide
+├── .env.example        # Environment template
+├── project_1_publications  # Data files metadata (license, title, publication description
+├── README.md          # This guide
 └── LICENSE.txt        
 ```
 
