@@ -30,9 +30,7 @@ rt-aaidc-project1-template/
 
 ### To run locally
 - Create your virtual environment and install dependencies listed in `requirements.txt`.
-- Move the two example files (`papers_schema.json` and `papers.csv`) in the `examples` directory into the `./inputs/schema` and `./inputs/data` folders, respectively (or alternatively, place your custom dataset files in the same locations).
-- Run the script `src/create_db.py` to create the database. This will save the db in the path `./db/`.
-- Run the script `src/serve.py` to start the inference service, which can be queried using the `/ping` and `/infer` endpoints. The service runs on port 8080.
+- Run the script `src/app.py`
 ```
 
 ## Requirements
@@ -43,7 +41,10 @@ You can install these packages by running the following command from the root of
 ```python
 pip install -r requirements.txt
 ```
+## LICENSE
+
+This project is provided under the Apache 2.0 License. Please see the [LICENSE](LICENSE) file for more information.
 
 ## Contact Information
 
-Repository created by Ready Tensor, Inc. (https://www.readytensor.ai/)
+Repository created by Russ Rubis (rrubis@yahoo.com)
