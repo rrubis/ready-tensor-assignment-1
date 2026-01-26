@@ -17,7 +17,9 @@ Here are the highlights of this implementation: <br/>
 rt-aaidc-project1-template/
 ├── src/
 │   ├── app.py           # Main RAG application
-│   └── vectordb.py      # Vector database wrapper
+│   |── vectordb.py      # Vector database wrapper
+│   |── prompt_template.py      # Prompt template
+│   └── paths.py      # Paths required by application
 ├── data/              # Currently supports .txt and .pdf files 
 │   ├── *.txt          
 │   ├── *.pdf
