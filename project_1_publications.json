@@ -1,0 +1,177 @@
+[
+    {
+        "license": "arXiv.org perpetual, non-exclusive license",
+        "title": "A Comprehensive Survey on Vector Database: Storage and Retrieval Technique, Challenge",
+        "publication_description": "Vector databases (VDBs) have emerged to manage high-dimensional data that exceed the capabilities of traditional database management systems, and are now tightly integrated with large language models as well as widely applied in modern artificial intelligence systems. Although relatively few studies describe existing or introduce new vector database architectures, the core technologies under lying VDBs, such as approximate nearest neighbor search, have been extensively studied and are well documented in the literature. In this work, we present a comprehensive review of the relevant algo rithms to provide a general understanding of this booming research area. Specifically, we first provide a review of storage and retrieval techniques in VDBs, with detailed design principles and technological evolution. Then, we conduct an in-depth comparison of several advanced VDB solutions with their strengths, limitations, and typical application scenarios. Finally, we also outline emerging opportuni ties for coupling VDBs with large language models, including open research problems and trends, such as novel indexing strategies. This survey aims to serve as a practical resource, enabling readers to quickly gain an overall understanding of the current knowledge landscape in this rapidly developing area."
+    },
+    {
+        "license": "none",
+        "title": "Top 15 Vector Databases for 2026",
+        "publication_description": "In the rapidly evolving landscape of data science, vector databases play a pivotal role in enabling efficient storage, retrieval, and manipulation of high-dimensional data. This article explores the definition and significance of vector databases, comparing them with traditional databases, and provides an in-depth overview of the top 15 vector databases to consider in 2026."
+    },
+    {
+        "license": "none",
+        "title": "Vector Databases Leading Products You Should Know",
+        "publication_description":The generative AI boom has elevated the vector database from a niche position to a star player. A vector  database stores and queries embeddings of data from unstructured data sources like text files, images,  audio & video. Embeddings are mathematical representations of words, sentences, documents, as  numerical vectors in a high-dimensional space that captures semantic meaning and relationships  between these linguistic entities."
+    },
+    {
+        "license": "",
+        "title": "Vector Databases: Intro, Use Cases, Top 5 Vector DBs",
+        "publication_description": "Vector databases have had a huge impact on AI products involving Large Language Models and semantic search. Let’s take a closer look at them and see if they’re the right choice for your project."
+    },
+    {
+        "license": "none",
+        "title": "Comparing Vector Databases",
+        "publication_description": "If you are a developer interested in AI, there is a good chance that you may have started working with Large Language Models such as OpenAI’s GPT-4, Google’s PaLM-2 or Meta’s LLaMa to build intelligence into your application, especially semantic search. The search space has been completely upended by the power LLMs offer to find exactly what users want based on the meaning of their queries versus matching keywords."
+    },
+    {
+        "license": "none",
+        "title": "Optimizing RAG: A Guide to Choosing the Right Vector Database",
+        "publication_description": "Retrieval-Augmented Generation (RAG) has emerged as a groundbreaking approach, blending the best of two worlds: information retrieval and generative models. At its core, RAG is a technique that enhances the capabilities of generative models by enabling them to retrieve and utilize relevant external information during the generation process. This not only amplifies the model’s knowledge base but also significantly improves the accuracy and contextuality of its outputs."
+    },
+    {
+        "license": "none",
+        "title": "The Top 7 Vector Databases in 2026",
+        "publication_description": "A comprehensive guide to the best vector databases. Master high dimensional data storage, decipher unstructured information, and leverage vector embeddings for AI applications."
+    },
+    {
+        "license": "cc-by",
+        "title": "Survey of vector database management systems",
+        "publication_description": "There are now over 20 commercial vector database management systems (VDBMSs), all produced within the past five years. But embedding-based retrieval has been studied for over ten years, and similarity search a staggering half century and more. Driving this shift from algorithms to systems are new data intensive applications, notably large language models, that demand vast stores of unstructured data coupled with reliable, secure, fast, and scalable query processing capability. A variety of new data management techniques now exist for addressing these needs, however there is no comprehensive survey to thoroughly review these techniques and systems. We start by identifying five main obstacles to vector data management, namely the ambiguity of semantic similarity, large size of vectors, high cost of similarity comparison, lack of structural properties that canbeusedforindexing,anddifficultyofefficiently answering "hybrid" queries that jointly search both attributes and vectors. Overcoming these obstacles has led to new approaches to query processing, storage and indexing, and query optimization and execution. For query processing, a variety of similarity scores and query types are now well understood; for storage and indexing, techniques include vector compression, namely quantization, and partitioning techniques based on randomization, learned partitioning, and "navigable" partitioning; for query optimization and execution, we describe new operators for hybrid queries, as well as techniques for plan enumeration, plan selection, distributed query processing, data manipulation queries, and hardware accelerated query execution. These techniques lead to a variety of VDBMSs across a spectrum of design and runtime characteristics, including "native" systems that are specialized for vectors and "extended" systems that incorporate vector capabilities into existing systems. We then discuss benchmarks, and finally outline research challenges and point the direction for future work."
+    },
+    {
+        "license": "none",
+        "title": "Top 10 open source vector databases",
+        "publication_description": "A vector database manages, indexes, and queries high-dimensional vector data, often used in machine learning, data mining, and advanced analytical applications."
+    },
+    {
+        "license": "none",
+        "title": "Vector databases in LLMs and search",
+        "publication_description": "Vector databases and search aren’t new, but vectorization is essential for generative AI and working with LLMs. Here's what you need to know."
+    },
+    {
+        "license": "arXiv.org perpetual, non-exclusive license",
+        "title": "When Large Language Models Meet Vector Databases: A Survey",
+        "publication_description": "This survey explores the synergistic potential of Large Language Models (LLMs) and Vector Databases (VecDBs), a burgeoning but rapidly evolving research area. With the proliferation of LLMs comes a host of challenges, including hallucinations, outdated knowledge, prohibitive commercial application costs, and memory issues. VecDBs emerge as a compelling solution to these issues by offering an efficient means to store, retrieve, and manage the high-dimensional vector representations intrinsic to LLM operations. Through this nuanced review, we delineate the foundational principles of LLMs and VecDBs and critically analyze their integration’s impact on enhancing LLM functionalities. This discourse extends into a discussion on the speculative future developments in this domain, aiming to catalyze further research into optimizing the confluence of LLMsandVecDBsfor advanced data handling and knowledge extraction capabilities."
+    },
+    {
+        "license": "none",
+        "title": "What is a Vector Database? A Beginner’s Guide",
+        "publication_description": "Modern organizations use a variety of databases to manage information, from relational databases and NoSQL systems to distributed databases that scale across nodes. As artificial intelligence (AI) and machine learning (ML) models continue to grow in popularity, a new category has entered the mix: vector databases. These specialized databases are specifically designed to handle the unique data needs of AI, especially the high dimensional numeric data (vectors) that encode unstructured content like text, images, and audio.  This blog provides a clear definition of vector databases and answers key questions about how they work, how they differ from regular databases, and when you should use them for your AI and ML projects."
+    },
+    {
+        "license": "none",
+        "title": "Vector Database infrastructure requirements white paper",
+        "publication_description": "Unstructured data is transformed into a machine-understandable format through a computationally intensive process of converting the unstructured data into vectors -- high-dimensional mathematical representations. These vectors capture not only the raw text but also the context and semantic meaning of the content. Metadata can also be extracted from raw data and stored alongside the transformed data."
+    },
+    {
+        "license": "none",
+        "title": "Leveraging Vector Databases to Enhance AI Applications in Pharmaceutical Research",
+        "publication_description": "Vector databases are emerging as a crucial component in advancing AI and machine learning applications, particularly in the pharmaceutical industry. This presentation explores how vector databases can significantly improve the efficiency and accuracy of large language models. We'll examine a case study where a vector database was implemented to enhance the search and retrieval of complex clinical trial data, leading to accelerated clinical trials. The talk will address the technical challenges of integrating vector databases with existing AI systems and the potential benefits, including improved data organization, faster query processing, and more accurate similarity searches. Finally, we'll discuss future research directions, focusing on how vector databases could revolutionize personalized medicine by enabling more nuanced analysis of patient data and treatment outcomes."
+    },
+    {
+        "license": "none",
+        "title": "What Is a Vector Database?",
+        "publication_description": "A lesser-known data type, vectors, has seized the spotlight recently as an enabler of generative AI. But vectors and databases capable of storing and analyzing them—have been toiling backstage for many years. They’re used in geospatial mapping and analysis for city planning, transportation logistics, and environmental analysis. More recently, vectors have been used in recommendation engines for retail products as well as music and video streaming sites. Generative AI builds on these use cases and opens the door to new innovations using vectors and vector databases along with companion technologies, including retrieval-augmented generation (RAG)."
+    },
+    {
+        "license": "cc-by",
+        "title": "Vector Database Management Techniques and Systems",
+        "publication_description": "Feature vectors are now mission-critical for many applications, including retrieval-based large language models (LLMs). Traditional database management systems are not equipped to deal with the unique characteristics of feature vectors, such as the vague notion of semantic similarity, large size of vectors, expensive similarity comparisons, lack of indexable structure, and difficulty of answering "hybrid" queries that combine structured attributes with feature vectors. A number of vector database management systems (VDBMSs) have been developed to address these challenges, combining novel techniques for query processing, storage and indexing, and query optimization and execution and culminating in a spectrum of performance and accuracy characteristics and capabilities. In this tutorial, we review the existing vector database management techniques and systems. For query processing, we review similarity score design and selection, vector query types, and vector query interfaces. For storage and indexing, we review various indexes and discuss compression as well as disk-resident indexes. For query optimization and execution, we review hybrid query processing, hardware acceleration, and distibuted search. We then review existing systems, search engines and libraries, and benchmarks. Finally, we present research challenges and open problems."
+    },
+    {
+        "license": "cc-by-sa",
+        "title": "Vector Databases for Modelling, Managing and Querying Big Scientific Data: Models, Issues, Paradigms",
+        "publication_description": "Inspired by the emergence of scientific data in fields like as as tronomy, climate research, and genomics, which presents significant challenges for conventional database systems. This vision paper investigates the adaptation of vector databases in order to describe, handle, and query large-scale scientific data. Moreover, we propose a road-mapforembedding-centric data infrastructures, along with an analysis of current advancements and identification of important future research directions, including explainability and scalability. This research provides a foundational basis for next-generation interdisciplinary scientific discovery."
+    },
+    {
+        "license": "cc-by",
+        "title": "VECTOR DATABASES: A PARADIGM SHIFT IN HIGH-DIMENSIONAL DATA MANAGEMENT FOR AI APPLICATIONS ",
+        "publication_description": "Vector databases represent a significant advancement in data management technology, particularly in addressing the growing demands of artificial intelligence (AI) and machine learning applications. This comprehensive article examines the fundamental architecture, capabilities, and implications of vector databases as they emerge as a crucial infrastructure component for modern data-intensive applications."
+    },
+    {
+        "license": "cc-by",
+        "title": "Introduction to Vector Databases for Generative AI: Applications, Performance, Future Projections, and Cost Considerations",
+        "publication_description": "The rapid advancement of artificial intelligence (AI), particularly in generative models, has led to an exponential increase in the need for efficient handling of high-dimensional vector data. This paper explores the critical role of vector databases in modern AI applications, focusing on their capabilities, use cases, and the challenges they address.Vector databases have emerged as a critical component in the development of generative AI applications. This paper provides a comprehensive review of the role of vector databases in generative AI, focusing on their ability to store, manage, and retrieve high-dimensional vector data efficiently. This paper explores the critical role of vector databases in modern AI applications, focusing on their capabilities, use cases, and the challenges they address. We examine the fundamental limitations of relational databases in handling vector data, contrasting them with specialized vector databases that are optimized for high-dimensional data storage and similarity search. The paper surveys various vector database solutions, including those offered by major cloud providers like Google, AWS, and Microsoft, and highlights their integration with generative AI frameworks such as Lang Chain, Semantic Kernel, and Vertex AI. We also discuss the impact of vector databases on retrieval-augmented generation (RAG) and other AI-driven applications, emphasizing their ability to enhance the accuracy and relevance of large language models (LLMs). Additionally, the paper provides insights into future trends, including scalability improvements, integration with knowledge graphs, and ethical considerations in AI development. By addressing performance, cost, and implementation challenges, this paper aims to provide a comprehensive understanding of how vector databases are shaping the future of generative AI."
+    },
+    {
+        "license": "none",
+        "title": "Best Vector Databases in 2025: A Complete Comparison Guide",
+        "publication_description": "This vector database selection guide gives you what the vendor sites won’t: real performance numbers from VectorDBBench, honest trade-offs between managed and self-hosted options, and a framework for choosing the right vector database for your needs. You’ll learn which solution fits your scale, use case, and existing infrastructure. No hand-waving, no vendor pitches. Just the information you need to decide and move forward."
+    },
+    {
+        "license": "none",
+        "title": "7 Best Vector Databases in 2025",
+        "publication_description": "In a world where AI and machine learning power everything from search engines to recommendation systems, vector databases have become essential. Unlike traditional databases, they’re designed to store and search high-dimensional vector embeddings, making them ideal for use cases like image recognition, semantic search, and personalized recommendations. As more businesses adopt AI-driven solutions, the need for fast, scalable, and accurate vector search has grown rapidly. In 2025, several vector databases stand out for their performance, ecosystem support, and developer experience. This guide explores what vector databases are, how to choose one, and which options lead the space this year."
+    },
+    {
+        "license": "none",
+        "title": "We Tried and Tested 10 Best Vector Databases for RAG Pipelines",
+        "publication_description": "The choice of Vector database for RAG pipelines can make or break your agent's core paradigm. A well-chosen vector store recalls relevant documents with low query latency, and a poor choice can slow down responses and cause agents to hallucinate or fail. However, finding the correct vector database for your RAG pipeline is not a simple task. You have to test each system’s semantic accuracy, query throughput, and metadata filtering under realistic loads. But don’t worry, we’ve done the testing, so you don’t have to. For this article, we evaluated and tested the 10 best vector databases for RAG pipelines, assessing them under various parameters and comparing their strengths and weaknesses in real-world agentic AI workflows."
+    },
+    {
+        "license": "none",
+        "title": "Artificial Intelligence Overview",
+        "publication_description": "Artificial Intelligence (AI) is a branch of computer science that aims to create intelligent machines that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding. AI systems can be classified into narrow AI, which is designed for specific tasks, and general AI, which would have human-like cognitive abilities across various domains."
+    },
+    {
+        "license": "none",
+        "title": "Best 17 Vector Databases for 2025",
+        "publication_description": "In the real world, teams may have to deal with data that isn’t neatly organized into rows and columns. That’s especially true when you’re working with complex, unstructured data such as photos, videos, and natural language. This is where vector databases come in to save the day. What is the best vector database you can choose for your project? What are the leading vector databases on the market today? Dive into our overview of the 17 most popular vector databases on the market to understand your options and pick the best tool for your project."
+    },
+    {
+        "license": "none",
+        "title": "Emerging Trends in Vector Database Research and Development",
+        "publication_description": "First introduced with Milvus in 2019, vector databases have rapidly risen to prominence alongside the emergence of large language models (LLMs) and the rise of generative AI (GenAI) applications. As an engineer deeply engaged in this sector, I've witnessed their evolution from basic implementations of Approximate Nearest Neighbors Search (ANNS) algorithms to sophisticated database systems integral to modern AI frameworks, from niche implementations to broad deployments. As AI continues to mature, where is the future of vector databases headed? In my view, the development of this technology is intricately linked to product evolution, propelled by the changing demands of users. Understanding these shifts is crucial for directing the trajectory and objectives of technological developments. In this article, I will discuss the development and anticipated future of vector databases from both technical and practical perspectives, focusing on cost-efficiency and business requirements."
+    },
+    {
+        "license": "cc-by",
+        "title": "Vector database management systems: Fundamental concepts, use-cases, and current challenges?",
+        "publication_description": "Vector database management systems have emerged as an important component in modern data management, driven by the growing importance for the need to computationally describe rich data such as texts, images and video in various domains such as recommender systems, similarity search, and chatbots. These data descriptions are captured as numerical vectors that are computationally inexpensive to store and compare. However, the unique characteristics of vectorized data, including high dimensionality and sparsity, demand specialized solutions for efficient storage, retrieval, and processing. This narrative literature review provides an accessible introduction to the fundamental concepts, use-cases, and current challenges associated with vector database management systems, offering an overview for researchers and practitioners seeking to facilitate effective vector data management."
+    },
+    {
+        "license": "none",
+        "title": "10 Best Vector Databases for RAG Pipelines",
+        "publication_description": "For this article, we evaluated and tested the 10 best vector databases for RAG pipelines, assessing them under various parameters and comparing their strengths and weaknesses in real-world agentic AI workflows."
+    },
+    {
+        "license": "none",
+        "title": "13 Best Vector Databases For AI Apps (Comparisons, Reviews, Demos, and Limitations)",
+        "publication_description": "Information today comes in infinite forms - from text and images to audio and video. This diversity once made connecting insights across data daunting.  But Modern AI is changing the game. Innovations like embedding models work magic under the hood, transforming data into vectors capturing meaning.  Suddenly your data speaks a universal language. Documents, logs, songs, images - they become encoded points in a vector space. Now surface insights by finding clustered vectors.  Vector search unlocks extraordinary experiences.  Discover similar products through images. Identify customer needs in behavior data. Power semantic search. These breakthroughs are fueled by vector databases, the engines behind vector search. They efficiently store and process billions of vectors for blazing fast similarity matching and AI-driven insights.  In this post, I'll explore the capabilities of these pivotal Modern AI components. Understand how vector databases uniquely unlock value from embeddings. And spotlight the top solutions leading the way in 2023."
+    },
+    {
+        "license": "none",
+        "title": "10 Best Vector Databases for RAG Pipelines",
+        "publication_description": "The choice of Vector database for RAG pipelines can make or break your agent's core paradigm.  A well-chosen vector store recalls relevant documents with low query latency, and a poor choice can slow down responses and cause agents to hallucinate or fail.  However, finding the correct vector database for your RAG pipeline is not a simple task. You have to test each system’s semantic accuracy, query throughput, and metadata filtering under realistic loads.  But don’t worry, we’ve done the testing, so you don’t have to.  For this article, we evaluated and tested the 10 best vector databases for RAG pipelines, assessing them under various parameters and comparing their strengths and weaknesses in real-world agentic AI workflows."
+    },
+    {
+        "license": "none",
+        "title": "Top 5 Open-Source Vector Databases for 2025",
+        "publication_description": "Vector search, also known as vector similarity search, has quickly evolved from an experimental technology to a must-have component in many AI applications. As developers and technical leaders, we’re increasingly looking for ways to handle similarity-based queries that traditional databases simply weren’t designed to handle efficiently. Whether you’re building a product recommendation system or implementing semantic search, the underlying challenge is the same: how do you efficiently find the “nearest neighbors” to a query vector in a potentially massive dataset? That’s where vector search engines come in. The good news is that the open source community has stepped up with multiple high-quality options. The challenging part? Figuring out which one is right for your specific use case, technical requirements, and team expertise. In this guide, we’ll walk through the most popular open-source vector search engines available today, compare their strengths and limitations, and provide practical insights to help you make an informed decision. We’ll cover everything from the technical foundations to specific implementation considerations, with a focus on real-world applications."
+    },
+    {
+        "license": "none",
+        "title": "Top 5 Open-Source Vector Databases for Scalable AI Solutions",
+        "publication_description": "Vector databases compatibility with AI and machine learning models further advances data analysis and decision-making. The capability for real-time data processing in scenarios like fraud detection adds to their appeal, offering businesses the opportunity to gain insights quickly and stay competitive in their respective markets."
+    },
+    {
+        "license": "none",
+        "title": "Top 5 Open-Source Vector Databases for 2025",
+        "publication_description": "Vector search, also known as vector similarity search, has quickly evolved from an experimental technology to a must-have component in many AI applications. As developers and technical leaders, we’re increasingly looking for ways to handle similarity-based queries that traditional databases simply weren’t designed to handle efficiently. Whether you’re building a product recommendation system or implementing semantic search, the underlying challenge is the same: how do you efficiently find the “nearest neighbors” to a query vector in a potentially massive dataset? That’s where vector search engines come in. The good news is that the open source community has stepped up with multiple high-quality options. The challenging part? Figuring out which one is right for your specific use case, technical requirements, and team expertise. In this guide, we’ll walk through the most popular open-source vector search engines available today, compare their strengths and limitations, and provide practical insights to help you make an informed decision. We’ll cover everything from the technical foundations to specific implementation considerations, with a focus on real-world applications."
+    },
+    {
+        "license": "none",
+        "title": "Top 9 Vector Databases as of January 2026",
+        "publication_description": "Vector database (Vector DB) has emerged as a powerful tool in recent years alongside the rapid growth of AI and machine learning technologies. It is essentially a data management system to store, search, and retrieve high-dimensional data generated by AI models, often in the form of texts, images, audio, or unstructured embeddings.  The popularity of AI, especially in the fields of computer vision and Natural Language Processing, has undeniably made vector DBs indispensable in managing the overwhelming volume of unstructured data produced by these AI systems. These systems, in turn, enable AI models to rapidly search for similar content for purposes such as recommendation engines, translation, and image recognition. In this article, we cover the most recent professional vector DBs and examine their attributes, capacities, and how they are changing the business landscape with AI and big data. Whether you’re a tech expert who’s already working with vector databases, a business owner looking to stay competitive, or someone curious about how this technology can transform your work, we hope this list can help you identify the most current and well-suited vector DB that meets your unique requirements."
+    },
+    {
+        "license": "none",
+        "title": "Vector database management systems: Fundamental concepts, use-cases, and current challenges",
+        "publication_description": "Vector database management systems have emerged as an important component in modern data management, driven by the growing importance for the need to computationally describe rich data such as texts, images and video in various domains such as recommender systems, similarity search, and chatbots. These data descriptions are captured as numerical vectors that are computationally inexpensive to store and compare. However, the unique characteristics of vectorized data, including high dimensionality and sparsity, demand specialized solutions for efficient storage, retrieval, and processing. This narrative literature review provides an accessible introduction to the fundamental concepts, use-cases, and current challenges associated with vector database management systems, offering an overview for researchers and practitioners seeking to facilitate effective vector data management."
+    },
+    {
+        "license": "none",
+        "title": "What Is A Vector Database? Top 12 Use Cases",
+        "publication_description": "We’re living in the age of AI. This technology has touched practically every industry, bringing about breakthroughs and, at the same time, introducing new challenges. Efficient data processing is very important for applications that involve AI/ML. Today, they all rely on vector embeddings, which is a type of data representation that contains semantic data that AI engines need to develop knowledge and retain long-term memory used for performing complicated tasks. AI models create embeddings that include a massive number of properties or features, making their representation difficult to manage. In the context of AI and machine learning, these characteristics represent the aspects of data that are critical for identifying patterns, correlations, and underlying structures. That is why data practitioners require a special kind of database developed exclusively for dealing with this sort of data. This is where vector databases come in."
+    }
+]
