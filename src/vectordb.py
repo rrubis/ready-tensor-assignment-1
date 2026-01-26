@@ -1,10 +1,12 @@
 import os
 import chromadb
+from chromadb.config import Settings
 from typing import List, Dict, Any
 from sentence_transformers import SentenceTransformer
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import shutil
 import logging
+from paths import DATABASE_DIR
 
 logger = logging.getLogger("Project1")
 
@@ -28,11 +30,14 @@ class VectorDB:
             "EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2"
         )
 
-        if os.path.exists("../chroma_db"):
-            shutil.rmtree("../chroma_db")
+        db_path = DATABASE_DIR
+
+        #for some reason allow_reset=True is not working, resetting db by removing folder contents at startup..
+        if os.path.exists(db_path):
+            shutil.rmtree(db_path)
 
         # Initialize ChromaDB client
-        self.client = chromadb.PersistentClient(path="../chroma_db")
+        self.client = chromadb.PersistentClient(path=db_path, settings=Settings(allow_reset=True))
 
         # Load embedding model
         logger.info(f"Loading embedding model: {self.embedding_model_name}")
